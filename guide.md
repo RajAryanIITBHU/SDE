@@ -27,7 +27,7 @@ Recent candidate reports (2025–2026) emphasize:
 
 Here is the master blueprint of all 14 subtopics along with their individual core algorithms, techniques, and data structure concepts:
 
-### 1. Arrays, Hashing & Prefix Sum
+### 01. Arrays, Hashing & Prefix Sum
 - **Kadane's Algorithm:** Maximum subarray sum in $O(N)$ time.
 - **Boyer-Moore Majority Vote Algorithm:** Finding majority elements ($> N/2$, $> N/3$) in $O(N)$ time and $O(1)$ space.
 - **Dutch National Flag Algorithm:** 3-way partitioning for sorting 0s, 1s, and 2s in one pass.
@@ -37,7 +37,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Interval Processing:** Interval merging, insertion, overlap checking, and meeting room scheduling.
 - **Cyclic Sort:** Finding missing, duplicate, or first positive numbers in $O(N)$ time with $O(1)$ auxiliary space.
 
-### 2. Two Pointers, Sliding Window & Strings
+### 02. Two Pointers, Sliding Window & Strings
 - **Two Pointers (Opposite Direction):** Two Sum in sorted array, palindrome verification, container with most water.
 - **Two Pointers (Same Direction / Fast & Slow):** Array deduplication, moving zeroes, subsegment compaction.
 - **Sliding Window (Fixed Size):** Tracking maximum/minimum elements or vowel counts in subsegments of length $K$.
@@ -47,7 +47,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Palindrome Expansion:** Expanding around single/double centers to find longest palindromic subsegments.
 - **Pattern Matching Concepts:** KMP (Knuth-Morris-Pratt) prefix function and Rabin-Karp rolling hash algorithms.
 
-### 3. Binary Search & Search on Answer
+### 03. Binary Search & Search on Answer
 - **Standard Binary Search:** Iterative and recursive searching in sorted sequences.
 - **Lower Bound & Upper Bound:** Locating first and last occurrences of target elements.
 - **Rotated & Shifted Array Search:** Finding elements and minimums in single and duplicate rotated sorted arrays.
@@ -56,7 +56,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Peak Finding:** Binary search on non-sorted sequences via slope detection (Peak Element, Mountain Array).
 - **Partition & Median Search:** Binary search over dual partitions (Median of Two Sorted Arrays).
 
-### 4. Linked Lists
+### 04. Linked Lists
 - **Floyd's Fast & Slow Pointer Technique:** Cycle detection (Tortoise and Hare), cycle entrance discovery, and middle node retrieval.
 - **In-place Linked List Reversal:** Iterative and recursive reversal of full lists and subsegments ($K$-group reversal).
 - **Dummy Node Technique:** Eliminating boundary edge-case checks for head/tail mutations.
@@ -64,7 +64,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Interleaving & Reordering:** Zipping, unzipping, and alternating odd-even nodes.
 - **Deep Copy with Random Pointers:** Hash map mapping vs. in-place interleave-and-split pointer duplication.
 
-### 5. Stack, Queue, Monotonic Stack & Design
+### 05. Stack, Queue, Monotonic Stack & Design
 - **Parentheses & Bracket Matching:** String validation, nested structure parsing, and decode string operations.
 - **Expression Parsing:** Infix to Postfix/Prefix conversion and Reverse Polish Notation (RPN) calculator evaluation.
 - **Monotonic Stack:** Next/Previous Greater/Smaller Element detection in $O(N)$ time for stock spans and temperatures.
@@ -72,7 +72,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Monotonic Queue:** Double-ended queue for tracking maximums/minimums in sliding windows.
 - **Data Structure Design (System Design-Lite):** Min Stack, Max Stack, Circular Queue, Circular Deque, LRU Cache (Hash Map + Doubly Linked List), and LFU Cache.
 
-### 6. Trees & Binary Search Trees (BST)
+### 06. Trees & Binary Search Trees (BST)
 - **DFS Traversals:** Pre-order, In-order, Post-order traversals (both recursive and stack-based iterative).
 - **BFS Level Order Traversal:** Standard level order, zigzag/snake traversal, right/left side views, and max width computation.
 - **Tree Structural Properties:** Depth, height, balance check (AVL height property), and tree diameter calculation.
@@ -82,7 +82,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Tree Reconstruction:** Building binary trees from Preorder+Inorder or Inorder+Postorder traversal arrays.
 - **Tree Flattening & Serialization:** Flattening trees to linked lists, tree serialization and deserialization routines.
 
-### 7. Graphs, BFS, DFS, Shortest Path & Union Find (DSU)
+### 07. Graphs, BFS, DFS, Shortest Path & Union Find (DSU)
 - **Grid Traversal:** 2D Flood fill, island counting, max area of island, surrounded regions, and Pacific-Atlantic flow.
 - **Multi-Source BFS:** Simultaneous expansion in grids (Rotting Oranges, Distance to nearest 0 matrix).
 - **Topological Sort:** Kahn's Algorithm (indegree array + queue) and DFS stack algorithm for dependency ordering (Course Schedule).
@@ -95,7 +95,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Minimum Spanning Tree (MST):** Kruskal's algorithm (Greedy + DSU) and Prim's algorithm (Greedy + Min-Heap).
 - **Bipartite Graphs:** 2-colorability check via BFS/DFS graph traversal.
 
-### 8. Dynamic Programming
+### 08. Dynamic Programming
 - **1D Linear DP:** Fibonacci sequences, Climbing Stairs, Min Cost Stairs, House Robber I & II, Decode Ways, Delete and Earn.
 - **Grid DP:** Unique Paths I & II, Minimum Path Sum, Triangle, Minimum Falling Path Sum, Maximal Square.
 - **0/1 Knapsack Pattern:** Subset Sum, Target Sum, Partition Equal Subset Sum, Last Stone Weight II, Ones and Zeroes.
@@ -107,7 +107,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 - **Interval DP:** Matrix Chain MCM, Burst Balloons, Minimum Cost Tree From Leaf Values.
 - **Bitmask DP:** Subset state representation for small $N \le 20$ (Shortest Path Visiting All Nodes, Traveling Salesperson).
 
-### 9. Greedy Algorithms, Heap & Priority Queue
+### 09. Greedy Algorithms, Heap & Priority Queue
 - **Greedy Choice Property:** Local optimal decision making with mathematical proofs of global optimality.
 - **Interval Scheduling:** Activity Selection, N Meetings in One Room, Non-overlapping Intervals, Minimum Platforms.
 - **Task & Event Scheduling:** Task Scheduler with cooldown, Reorganize String without adjacent duplicates.
@@ -164,7 +164,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 
 ---
 
-# 1. Arrays, Hashing & Prefix Sum --- 65
+# 01. Arrays, Hashing & Prefix Sum --- 65
 
 -   [ ] 001. LC 1 --- Two Sum --- P0
 -   [ ] 002. LC 53 --- Maximum Subarray --- P0
@@ -232,7 +232,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 064. LC 2131 --- Longest Palindrome by Concatenating Two Letter Words --- P2
 -   [ ] 065. LC 2245 --- Maximum Trailing Zeros in a Cornered Path --- P2
 
-# 2. Two Pointers, Sliding Window & Strings --- 45
+# 02. Two Pointers, Sliding Window & Strings --- 45
 
 -   [ ] 066. LC 3 --- Longest Substring Without Repeating Characters --- P0
 -   [ ] 067. LC 11 --- Container With Most Water --- P0
@@ -280,7 +280,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 109. LC 2090 --- K Radius Subarray Averages --- P2
 -   [ ] 110. LC 2444 --- Count Subarrays With Fixed Bounds --- P2
 
-# 3. Binary Search & Search on Answer --- 35
+# 03. Binary Search & Search on Answer --- 35
 
 -   [ ] 111. LC 33 --- Search in Rotated Sorted Array --- P0
 -   [ ] 112. LC 34 --- Find First and Last Position of Element in Sorted Array --- P0
@@ -318,7 +318,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 144. LC 2040 --- Kth Smallest Product of Two Sorted Arrays --- P2
 -   [ ] 145. LC 2251 --- Number of Flowers in Full Bloom --- P2
 
-# 4. Linked Lists --- 30
+# 04. Linked Lists --- 30
 
 -   [ ] 146. LC 2 --- Add Two Numbers --- P0
 -   [ ] 147. LC 19 --- Remove Nth Node From End of List --- P0
@@ -351,7 +351,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 174. LC 430 --- Flatten a Multilevel Doubly Linked List --- P2
 -   [ ] 175. LC 1171 --- Remove Zero Sum Consecutive Nodes from Linked List --- P2
 
-# 5. Stack, Queue, Monotonic Stack & Design --- 35
+# 05. Stack, Queue, Monotonic Stack & Design --- 35
 
 -   [ ] 176. LC 20 --- Valid Parentheses --- P0
 -   [ ] 177. LC 150 --- Evaluate Reverse Polish Notation --- P0
@@ -389,7 +389,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 209. LC 2289 --- Steps to Make Array Non-decreasing --- P2
 -   [ ] 210. LC 2454 --- Next Greater Element IV --- P2
 
-# 6. Trees & BST --- 45
+# 06. Trees & BST --- 45
 
 -   [ ] 211. LC 98 --- Validate Binary Search Tree --- P0
 -   [ ] 212. LC 100 --- Same Tree --- P0
@@ -437,7 +437,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 254. LC 968 --- Binary Tree Cameras --- P2
 -   [ ] 255. LC 1110 --- Delete Nodes And Return Forest --- P2
 
-# 7. Graphs, BFS, DFS, Shortest Path & Union Find --- 55
+# 07. Graphs, BFS, DFS, Shortest Path & Union Find --- 55
 
 -   [ ] 256. LC 200 --- Number of Islands --- P0
 -   [ ] 257. LC 207 --- Course Schedule --- P0
@@ -495,7 +495,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 309. LC 2290 --- Minimum Obstacle Removal to Reach Corner --- P2
 -   [ ] 310. LC 2608 --- Shortest Cycle in a Graph --- P2
 
-# 8. Dynamic Programming --- 65
+# 08. Dynamic Programming --- 65
 
 -   [ ] 311. LC 5 --- Longest Palindromic Substring --- P0
 -   [ ] 312. LC 62 --- Unique Paths --- P0
@@ -563,7 +563,7 @@ Here is the master blueprint of all 14 subtopics along with their individual cor
 -   [ ] 374. LC 1547 --- Minimum Cost to Cut a Stick --- P2
 -   [ ] 375. LC 1884 --- Egg Drop With 2 Eggs and N Floors --- P2
 
-# 9. Greedy, Heap & Priority Queue --- 35
+# 09. Greedy, Heap & Priority Queue --- 35
 
 -   [ ] 376. LC 45 --- Jump Game II --- P0
 -   [ ] 377. LC 55 --- Jump Game --- P0
